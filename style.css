@@ -2,17 +2,39 @@ body {
     background: grey;
     text-align: center;
 }
-h3#section{
+h3#hookOnCoding{
     font-weight: bold;
-    font-size: 56px;
+    font-size: 40px;
 }
 h2#quote{
     font-style: italic;
+    background-color: white;
     margin-top: 150px;
     margin-bottom: 150px;
 }
+section#tabs div#leftmost{
+    margin-left: 1.2%;
+}
+section#tabs div{
+    float: left;
+    width:24%;
+    border-style: inset;
+    border-width: .5%;
+    background-color: white;
+}
 p#hookOnCoding {
+    margin: auto;
+    width: 60%;
     padding: 10px;
     border-style:solid;
     background-color: white;
+}
+section#Languages div#leftmost{
+    margin-left: 30%;
+}
+section#Languages div{
+    
+    float:left;
+    width:10%;
+
 }
