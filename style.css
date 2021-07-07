@@ -2,34 +2,56 @@ body {
     background: grey;
     text-align: center;
 }
-section#tabs div#leftmost{
-    margin-left: 1.2%;
+.tabContainer{
+    width:100%;
+    height: 350px;;
 }
-section#tabs div{
+.tabContainer .buttons{
+    height: 15%;
+}
+.tabContainer .buttons button{
+    width: 25%;
+    height:100%;
     float: left;
-    width:24%;
     border-style: inset;
-    border-width: .5%;
+    cursor: pointer;
     background-color: white;
 }
+.tabContainer .buttons button:hover{
+    background-color: #d7d4d4;
+}
+.tabContainer .page{
+    height: 85%;
+    background-color:grey;
+    text-align: center;
+    box-sizing: border-box;
+}
 
-h2#quote{
+
+
+
+
+
+
+
+
+.page h2#quote{
     font-style: italic;
     background-color: white;
     margin-top: 150px;
     margin-bottom: 150px;
 }
-section#aboutMe div{
+.page section#aboutMe div{
     float: left;
     
 }
 
 
-section#aboutMe div img{
-    width: 73.6%;
-    margin-left: -30%;
+.page section#aboutMe div img{
+    width: 77%;
+    margin-left: -23%;
 }
-section#aboutMe div#leftmost{
+.page section#aboutMe div#leftmost{
     text-align: left;
     margin-left:20%;
     
@@ -39,18 +61,18 @@ section#aboutMe div#leftmost{
     line-height: 150%;
     background-color: white;
 }
-section#aboutMe div h3{
+.page section#aboutMe div h3{
     text-align:center;
     font-size: 40px;
 }
-section#hookOnCoding{
+.page section#hookOnCoding{
     margin-top:50% ;
 }
-section#hookOnCoding h3#hookOnCoding{
+.page section#hookOnCoding h3#hookOnCoding{
     font-weight: bold;
     font-size: 40px;
 }
-section#hookOnCoding p#hookOnCoding {
+.page section#hookOnCoding p#hookOnCoding {
     text-align: left;
     margin: auto;
     width: 60%;
@@ -58,12 +80,13 @@ section#hookOnCoding p#hookOnCoding {
     border-style:solid;
     background-color: white;
 }
-section#Languages div#leftmost{
+.page section#Languages div#leftmost{
     margin-left: 30%;
 }
-section#Languages div{
+.page section#Languages div{
     
     float:left;
     width:10%;
+    margin-bottom: 10%;
 
 }

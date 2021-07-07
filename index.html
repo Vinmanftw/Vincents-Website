@@ -6,55 +6,57 @@
   </head>
   <body>
     <h1>Vincent Orsini</h1>
-    <section id="tabs">
-      <div id="leftmost">
-        <p>Home</p>
+    <div class="tabContainer">
+      <div class="buttons">
+          <button onclick="showPage(0,'grey')">Home</button>
+          <button onclick="showPage(1,'grey')">Travel</button>
+          <button onclick="showPage(2,'grey')">Hobbies</button>
+          <button onclick="showPage(3,'grey')">Games</button>
       </div>
-      <div>
-        <p>Travel</p>
+      <div class="page">
+      </section>
+      <h2 id="quote">"Falling down is a part of life 
+          <br> Getting back up is living"
+          <br>-Jose N. Harris-
+      </h2>
+      
+      <section id="aboutMe">
+        <div id="leftmost">
+          <h3>Introduction</h3>
+          <p>Hi, my name is Vincent Orsini, I am 18 years old and I’m from Dallas, Texas. I graduated from Woodrow Wilson High school where I learned 4 different programming languages. I love being creative and bringing my ideas to life with the help of coding and programming. I have traveled to many places with my parents because of my Father's frequent traveling for work. These places include Paris, Sydney, and London. My 2 favorite hobbies are throwing knives and working out. Throwing knives has to be the most satisfying feeling ever!  While working out is my outlet and has helped me improve my self in many ways not only physically but mentally too.</p>
+        </div>
+        <div>
+          <img class="grad"
+              src="Graduate.png" alt="My graduation photo">
+        </div>
+      </section>
+      
+      <section id="hookOnCoding">
+        <h3 id="hookOnCoding">How I Found My Love For Coding</h3>
+        <p id="hookOnCoding">	On August of 2019, when I was a Junior in high-school I started my very first coding class, Pre-Ap Computer Science. At the time I thought the class was going to be over how computers worked turns out it was an introduction to coding. We started off with coding on Snap![1]. Snap! is a free programming language that lets you pick blocks of code and connect them together and use them to manipulate the sprite(s) on the screen, or/and control what is output in the window.  What got me really excited was you could make video games on Snap!. Which I did multiple times and enjoyed very much it also was a way for me to put my creativity to the test. The ability to have an idea and make it work on the screen just how I imagined it was amazing to me it’s what got me hooked on coding. Shortly after my first semester we moved away from snap and on to Python[2], which was harder because Python is text based. Even with Python it was still fun to me you could make the code perform an action you wanted it to if you had the correct code (you could also make text based games or card games ). When the end of the year came I found out that they were making a Gaming Design Class which would be taught in C#[3](pronounced C-Sharp) where we would code Xbox games. It turned out that in order to take the Gaming Design Class you’d have to already have taken AP Computer Science A, which was learning Java[4]. My teacher broke me a deal that I could double up to take both courses my Senior year and I did. I was one of the only 2 people in the whole school to double up in those 2 classes learning Java and C# at the same time. I loved both classes and they together grew my love for coding. A few video games I made were Frogger, Breakout, Flappy Bird, Space Invaders, and Top-Down 2D shooter based off of Dead Ops Arcade. For everyone of those games I went above and beyond the requirements because of my creativity and drive.</p>
+      </section>
+      
+      <section id="Languages">
+        <div id="leftmost">
+          <a href="https://snap.berkeley.edu/">Snap!</a>
+        </div>
+        <div>
+          <a href="https://www.python.org/">Python</a>
+        </div>
+        <div>
+          <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a>
+        </div>
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>
+        </div>
+      </section>
       </div>
-      <div>
-        <p>Hobbies</p>
-      </div>
-      <div>
-        <p>Games</p>
-      </div>
-    </section>
-    <h2 id="quote">"Falling down is a part of life 
-        <br> Getting back up is living"
-        <br>-Jose N. Harris-
-    </h2>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+    </div>
     
-    <section id="aboutMe">
-      <div id="leftmost">
-        <h3>Introduction</h3>
-        <p>Hi, my name is Vincent Orsini, I am 18 years old and I’m from Dallas, Texas. I graduated from Woodrow Wilson High school where I learned 4 different programming languages. I love being creative and bringing my ideas to life with the help of coding and programming. I have traveled to many places with my Dad because of his frequent traveling for work. These places include Paris, Sydney, and London. My 2 favorite hobbies are throwing knives and working out. Throwing knives has to be the most satisfying feeling ever!  While working out is my outlet and has helped me improve my self in many ways not only physically but mentally too.</p>
-      </div>
-      <div>
-        <img class="grad"
-            src="Graduate.png" alt="My graduation photo">
-      </div>
-    </section>
     
-    <section id="hookOnCoding">
-      <h3 id="hookOnCoding">How I Found My Love For Coding</h3>
-      <p id="hookOnCoding">	On August of 2019, when I was a Junior in high-school I started my very first coding class, Pre-Ap Computer Science. At the time I thought the class was going to be over how computers worked turns out it was an introduction to coding. We started off with coding on Snap![1]. Snap! is a free programming language that lets you pick blocks of code and connect them together and use them to manipulate the sprite(s) on the screen, or/and control what is output in the window.  What got me really excited was you could make video games on Snap!. Which I did multiple times and enjoyed very much it also was a way for me to put my creativity to the test. The ability to have an idea and make it work on the screen just how I imagined it was amazing to me it’s what got me hooked on coding. Shortly after my first semester we moved away from snap and on to Python[2], which was harder because Python is text based. Even with Python it was still fun to me you could make the code perform an action you wanted it to if you had the correct code (you could also make text based games or card games ). When the end of the year came I found out that they were making a Gaming Design Class which would be taught in C#[3](pronounced C-Sharp) where we would code Xbox games. It turned out that in order to take the Gaming Design Class you’d have to already have taken AP Computer Science A, which was learning Java[4]. My teacher broke me a deal that I could double up to take both courses my Senior year and I did. I was one of the only 2 people in the whole school to double up in those 2 classes learning Java and C# at the same time. I loved both classes and they together grew my love for coding. A few video games I made where Frogger, Breakout, Flappy Bird, Space Invaders, and Top-Down 2D shooter based off of Dead Ops Arcade. For everyone of those games I went above and beyond the requirements because of my creativity and drive.</p>
-    </section>
-    
-    <section id="Languages">
-      <div id="leftmost">
-        <a href="https://snap.berkeley.edu/">Snap!</a>
-      </div>
-      <div>
-        <a href="https://www.python.org/">Python</a>
-      </div>
-      <div>
-        <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a>
-      </div>
-      <div>
-        <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>
-      </div>
-    </section>
 
     <script src="script.js"></script>
   </body>
