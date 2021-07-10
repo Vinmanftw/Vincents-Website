@@ -99,7 +99,7 @@ body  {
 .page h2#travelIntro {
     padding-top: 15%;
     padding-bottom: 10%;
-    margin-top: 0%;
+    margin-top: 15%;
     margin-bottom: 7.5%;
     width: 17%;
     margin: auto;
@@ -147,4 +147,99 @@ body  {
     margin-top: 5%;
     padding-left: 5%;
     margin-bottom:5%;
+}
+
+.page h2#hobbieInfo{
+    padding-top: 15%;
+    padding-bottom: 10%;
+    margin-top: 15%;
+    
+    width: 45%;
+    margin: auto;
+    
+
+}
+.page section#Lifting div{
+    float: left;
+    
+}
+.page section#Lifting {
+    margin-bottom: 28%;
+}
+.page #leftmost h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.page section div#leftmost {
+    margin-left: 5%;
+    width:45%;
+    background-color: white;
+    border-style: solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+.page section#Lifting div#images{
+    width:45%;
+    
+}
+.page section#Lifting div#images img{
+    float: left;
+    width: 32.3%;
+    
+
+}
+.page section#Lifting div#images img#leftmost{
+    margin-left:10%;
+    
+    border-bottom: solid;
+}
+.page #leftmost p{
+    text-align: left;
+}
+
+.page .knifeThrowing{
+    margin:auto;
+    width:45%;
+    background-color: white;
+    border-style: solid;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.page .knifeThrowing p{
+    text-align: left;
+}
+.page .knifeThrowing h2{
+    font-size: 40px;
+    text-align: center;
+}
+.page h2#content{
+    font-size: 50px;
+
+}
+.page img#collection{
+    margin-top:5%;
+    width: 75%;
+    
+}
+.page .content img{
+    width:28%;
+    padding: 2%;
+    float:left;
+
+}
+.page .content{
+    margin-left: 4%;
+    margin-bottom:50%;
+}
+.page .videoContent{
+    margin-left: 1%;
+    margin-bottom:5%;
+}
+.page .videoContent video{
+    float:left;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }

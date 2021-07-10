@@ -16,4 +16,4 @@ function showPage(pageIndex,colorC,textColor) {
     tabPages[pageIndex].style.backgroundColor=colorC;
     document.body.style.backgroundColor=colorC;
 }
-showPage(1,'lightblue','black');
+showPage(2,'lightgreen','black');
