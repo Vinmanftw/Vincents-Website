@@ -81,13 +81,13 @@ body  {
     border-style:solid;
     background-color: white;
 }
-.page section#Languages div#leftmost{
-    margin-left: 30%;
+.page section#Languages {
+    margin-left: 15%;
 }
-.page section#Languages div{
+.page section#Languages a{
     
     float:left;
-    width:10%;
+    width: 20%;
     margin-bottom: 10%;
     
 
@@ -195,7 +195,7 @@ body  {
     
     border-bottom: solid;
 }
-.page #leftmost p{
+.page section#lifting #leftmost p{
     text-align: left;
 }
 
